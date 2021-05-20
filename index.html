@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            Paint- Circle Edition
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="code.js"> </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <h1 class="text-danger">Paint - Circle Edition</h1>
+        <br>
+        <canvas id="myCanvas" height="500" width="800">
+
+        </canvas>
+        <br>
+        <span> Radius: </span>
+        <input type="text" placeholder="Radius here..." id="radius_input">
+        <span> Colour:</span>
+        <input type="text" placeholder=" Colour here..." id="colour_input">
+        <span> Line Width: </span>
+        <input type="text" placeholder=" Line width here..." id="width_input">&nbsp;&nbsp;
+        <button class="btn btn-danger" id="clear_button" onclick="clearCanvas()">
+        Clear
+        </button>
+    </body>
+</html>

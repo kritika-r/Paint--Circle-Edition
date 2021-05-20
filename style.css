@@ -1,0 +1,18 @@
+body{
+    text-align:center;
+    background-image:url(Paint\ background.jpeg);
+    background-position: center;
+    background-size:cover;
+}
+
+canvas{
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-color: black;
+
+}
+
+span{
+    font-size: 20px;
+}
